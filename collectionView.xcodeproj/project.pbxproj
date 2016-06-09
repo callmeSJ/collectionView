@@ -15,6 +15,7 @@
 		339556831D0902E800A76687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339556811D0902E800A76687 /* LaunchScreen.storyboard */; };
 		3395568E1D0902E800A76687 /* collectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3395568D1D0902E800A76687 /* collectionViewTests.m */; };
 		339556991D0902E800A76687 /* collectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 339556981D0902E800A76687 /* collectionViewUITests.m */; };
+		339556A81D097ED000A76687 /* collectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 339556A71D097ED000A76687 /* collectionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		339556941D0902E800A76687 /* collectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		339556981D0902E800A76687 /* collectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectionViewUITests.m; sourceTree = "<group>"; };
 		3395569A1D0902E800A76687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339556A61D097ED000A76687 /* collectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionCell.h; sourceTree = "<group>"; };
+		339556A71D097ED000A76687 /* collectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				339556771D0902E800A76687 /* AppDelegate.m */,
 				339556791D0902E800A76687 /* ViewController.h */,
 				3395567A1D0902E800A76687 /* ViewController.m */,
+				339556A61D097ED000A76687 /* collectionCell.h */,
+				339556A71D097ED000A76687 /* collectionCell.m */,
 				3395567C1D0902E800A76687 /* Main.storyboard */,
 				3395567F1D0902E800A76687 /* Assets.xcassets */,
 				339556811D0902E800A76687 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				3395567B1D0902E800A76687 /* ViewController.m in Sources */,
 				339556781D0902E800A76687 /* AppDelegate.m in Sources */,
 				339556751D0902E800A76687 /* main.m in Sources */,
+				339556A81D097ED000A76687 /* collectionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
